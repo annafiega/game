@@ -1,10 +1,20 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Welcome</h1>
-</body>
+    <p>Make your choice</p>
+    <div id="buttons">
+      <button onclick="handleButtonClick('rock')">rock</button>
+      <button onclick="handleButtonClick('paper')">paper</button>
+      <button onclick="handleButtonClick('scissors')">scissors</button>
+    </div>   
+    <p id="userChoice"></p> 
+    <p id="computerChoice"></p>
+    <p id="result"></p>
+  </body>
+  <script type="text/javaScript" src="app.js"></script>
 </html>
