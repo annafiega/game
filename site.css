@@ -1,0 +1,52 @@
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background-color: rgb(65, 66, 65);
+  margin-left: 20;
+}
+h1 {
+  font-size: 80;
+  color: rgb(15, 119, 41);
+}
+button {
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 60px Arial;
+  padding: 1px 6px;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: (rgb(118, 118, 118));
+}
+
+.container {
+  width: 989px;
+  margin: 0 auto;
+
+  background-color: rgba(247, 241, 239, 0.596);
+  padding: 20px;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20;
+  margin-right: 20;
+}
+.stats {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 40;
+}
+.block {
+  width: 33%;
+  font-size: 40px;
+  font: center;
+  text-align: center;
+  color: darkslategray;
+}

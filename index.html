@@ -3,18 +3,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game</title>
+    <link rel="stylesheet" href="site.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
-    <p>Make your choice</p>
-    <div id="buttons">
-      <button onclick="handleButtonClick('rock')">rock</button>
-      <button onclick="handleButtonClick('paper')">paper</button>
-      <button onclick="handleButtonClick('scissors')">scissors</button>
-    </div>   
-    <p id="userChoice"></p> 
-    <p id="computerChoice"></p>
-    <p id="result"></p>
+    <div class="container">
+      <h1>Welcome</h1>     
+      <p1>Make your choice</p>  
+        <div class ="stats block" id="round">ROUND</div>
+        <div class="stats">
+       <div class="block" id="win">WIN</div>
+        <div class="block" id="ties">TIES</div>
+        <div class="block" id="lose">LOSE</div>          
+        </div>      
+         <div id="buttons">
+            <button onclick="handleButtonClick('rock')">rock</button>
+            <button onclick="handleButtonClick('paper')">paper</button>
+            <button onclick="handleButtonClick('scissors')">scissors</button>
+      </div>
+      <p id="userChoice"></p>
+      <p id="computerChoice"></p>
+      <p id="result"></p>
+    </div>
   </body>
   <script type="text/javaScript" src="app.js"></script>
 </html>
